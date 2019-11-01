@@ -1,0 +1,36 @@
+{
+    "name": "mngez/generator",
+    "description": "A Laravel dev helper.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/framework": "5.*"
+    },
+    "require-dev": {
+
+    },
+    "extra": {
+        "laravel": {
+
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mngez\\Generator\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
